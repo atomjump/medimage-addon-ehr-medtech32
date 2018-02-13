@@ -245,6 +245,11 @@ function restartParentServer(cb)
 
 function changeLocalConfig(configContents, opts)
 {
+
+	//Don't change the local config - this is set correctly already, ready for the parent
+	//EHRconnect package.
+	
+	
 	/* A typical local add-on config file:
 		 {
 			"incomingStringToReplace": ".jpg",
@@ -255,8 +260,10 @@ function changeLocalConfig(configContents, opts)
 			"quality": 90
 		}
 		*/
+		
+
 	//Put in some defaults if the object doesn't exist, but otherwise use the new data
-	
+	/*
 	if(!configContents.incomingStringToReplace) {
 		configContents.incomingStringToReplace = ".jpg";
 	}
@@ -298,7 +305,7 @@ function changeLocalConfig(configContents, opts)
 	}
 	if(opts.quality) {
 		configContents.quality = parseInt(opts.quality);
-	}
+	}*/
 
 	return configContents;
 }
