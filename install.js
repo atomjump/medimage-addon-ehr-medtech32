@@ -23,7 +23,7 @@ var exec = require('child_process').exec;
 
 var verbose = false;
 
-var thisAddOnConfigFile = __dirname + '/ehrconnect.json';
+var thisAddOnConfigFile = __dirname + '/config/config.json';
 var medImageAddonConfig = __dirname + "/../config.json";
 
 var pm2Parent = '';		//Include a string if this is run on linux that represents the MedImage server to restart
