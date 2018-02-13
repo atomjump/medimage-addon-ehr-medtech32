@@ -49,11 +49,6 @@ function strFunctionInserter(func) {
 //Add-on content
 var pagesToInsert = [
 		{
-			"from": __dirname + "/../../addons/ehrconnect/config/ehrconnect.json",
-			"to": __dirname + "/../../addons/ehrconnect/config/ehrconnect-backup.json",
-			"replace": true
-		},
-		{
 			"from": __dirname + "/ehrconnect.json",
 			"to": __dirname + "/../../addons/ehrconnect/config/ehrconnect.json",
 			"replace": true
