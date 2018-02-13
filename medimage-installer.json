@@ -11,10 +11,10 @@
   	  	  "node install.js first"
   	  ],
   	  "win32": [
-  	  	  "\\odbc\\odbcibinstall.exe /S"
+  	  	  "C:\\medimage\\addons\\ehr-medtech32\\odbc\\odbcibinstall.exe /S"
   	  ],
   	  "win64": [
-  	  	  "\\odbc\\odbcibinstall.exe /S"
+  	  	  "C:\\medimage\\addons\\ehr-medtech32\\odbc\\odbcibinstall.exe /S"
   	  ],
   	  "unix": [
   	  ],
