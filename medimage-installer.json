@@ -1,0 +1,38 @@
+{
+  "author": "AtomJump.com",
+  "name": "ehr-medtech32",
+  "description": "MedTech32 config for EHR Connector Add-on for MedImage",
+  "version": "0.0.1",
+  "private": false,
+  "license": "MIT License",
+  "installCommands": {
+  	 "all": [
+  	 	  "npm install",
+  	  	  "node install.js first"
+  	  ],
+  	  "win32": [
+  	  	  "\\odbc\\odbcibinstall.exe /S"
+  	  ],
+  	  "win64": [
+  	  	  "\\odbc\\odbcibinstall.exe /S"
+  	  ],
+  	  "unix": [
+  	  ],
+  	  "mac": [
+  	  	 
+  	  ]
+  },
+   "uninstallCommands": {
+  	 "all": [
+  	 	   "node uninstall.js"
+  	  ],
+  	  "win32": [
+  	  ],
+  	  "win64": [
+  	  ],
+  	  "unix": [
+  	  ],
+  	  "mac": [
+  	  ]
+  }
+}

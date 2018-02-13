@@ -1,0 +1,27 @@
+{
+  "author": "AtomJump.com",
+  "name": "medimage-addon-ehr-medtech32",
+  "description": "MedTech32 config for EHR Connector Add-on for MedImage",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "install": ""
+  },
+  "dependencies": {
+    "jimp": "*",
+    "upath": "*",
+    "querystring": "*",
+    "async": "*",
+    "fs-extra": "*",
+    "cheerio": "*"    
+  },
+  "repository" : { 
+     "type" : "git",
+     "url" : "https://github.com/atomjump/medimage-addon-ehr-medtech32.git"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=4.2"
+  },
+  "license" : "MIT License"
+}
