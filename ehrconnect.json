@@ -19,5 +19,14 @@
 	"dsnHere": "medtech32",
 	"logging": true,
 	"capitaliseNHID": true,
-	"dbCurrentTimeSQL": "CURRENT_TIMESTAMP" 
+	"dbCurrentTimeSQL": "CURRENT_TIMESTAMP",
+	"constraints": {
+		"patientID": 7,
+		"photoName": 100,
+		"staffname": 4,
+		"computer": 15,
+		"location": 1,
+		"fullphotopath": 255	
+	},
+	"createUserHelp": "<p>You can do this <b>manually</b>, <b>or</b> sometimes via your <b>ODBC driver</b> under e.g. 'Services/Users/Add User'.</p><p>To do this <i>manually</i>:</p><p>1. Bring up your SQL console and connect to the EHR database (typically with your system username and password)</p><p>2. Run a SQL query similar to this (depending on your database type):</p><pre>CREATE USER MEDIMAGE SET PASSWORD 'masterkey';</pre><p>3. Click the 'Switch to MEDIMAGE user' button below.</p>" 
 }
