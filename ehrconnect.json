@@ -12,7 +12,8 @@
 	"password": "masterkey",
 	"staffname": "#sys",
 	"computer": "",
-	"location": "M",
+	"localFolderMapDown": "C:\\mt32",
+	"location": "M:\\",
 	"useResized": false,
 	"parentPhotoDir": "C:\\MT32\\Attachments",
 	"useODBC": true,
@@ -28,5 +29,9 @@
 		"location": 1,
 		"fullphotopath": 255	
 	},
-	"createUserHelp": "<p>You can do this <b>manually</b>, <b>or</b> sometimes via your <b>ODBC driver</b> under e.g. 'Services/Users/Add User'.</p><p>To do this <i>manually</i>:</p><p>1. Bring up your SQL console and connect to the EHR database (typically with your system username and password)</p><p>2. Run a SQL query similar to this (depending on your database type):</p><pre>CREATE USER MEDIMAGE SET PASSWORD 'masterkey';</pre><p>3. Click the 'Switch to MEDIMAGE user' button below.</p>" 
+	"createUserHelp": "<p>You can do this <b>manually</b>, <b>or</b> sometimes via your <b>ODBC driver</b> under e.g. 'Services/Users/Add User'.</p><p>To do this <i>manually</i>:</p><p>1. Bring up your SQL console and connect to the EHR database (typically with your system username and password)</p><p>2. Run a SQL query similar to this (depending on your database type):</p><pre>CREATE USER MEDIMAGE SET PASSWORD 'masterkey';</pre><p>3. Click the 'Switch to MEDIMAGE user' button below.</p>",
+	"createUserHelpFull": "<p>You can do this <b>manually</b>, <b>or</b> via some ODBC drivers. After a successful connection using the system user, you will be <b>given an option</b> to switch to the MEDIMAGE user (which will give all correct permissions to that user).</p><p>To do this <i>manually</i>:</p><p>1. Bring up your database SQL console and connect to the EHR database (typically with the system user and password)</p><p>2. Run similar SQL queries to the following (this will vary depending on your database type):</p><pre>CREATE USER MEDIMAGE SET PASSWORD 'masterkey';
+GRANT ALL ON ATTACHMENTSMGR TO MEDIMAGE;
+GRANT SELECT ON PATIENT TO MEDIMAGE;
+GRANT SELECT ON ANYBODY TO MEDIMAGE;</pre><p>3. Set the username to 'MEDIMAGE' above.</p>"  
 }
