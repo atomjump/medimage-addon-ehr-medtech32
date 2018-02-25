@@ -24,7 +24,7 @@
 	"dbCurrentTimeSQL": "CURRENT_TIMESTAMP",
 	"constraints": {
 		"patientID": 7,
-		"photoName": 100,
+		"photoname": 100,
 		"staffname": 4,
 		"computer": 15,
 		"location": 1,
