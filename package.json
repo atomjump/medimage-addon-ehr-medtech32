@@ -13,7 +13,9 @@
     "querystring": "*",
     "async": "*",
     "fs-extra": "*",
-    "cheerio": "*"    
+    "cheerio": "*",
+    "unzip": "*",
+    "request": "*"    
   },
   "repository" : { 
      "type" : "git",
