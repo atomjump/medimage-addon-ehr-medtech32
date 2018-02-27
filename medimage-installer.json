@@ -11,7 +11,7 @@
   	  	  "node install.js first"
   	  ],
   	  "win32": [
-  	  	  "C:\\medimage\\addons\\ehr-medtech-con\\odbc\\psexec.exe -accepteula -s -d C:\\medimage\\addons\\ehr-medtech-con\\odbc\\odbcibinstall.exe /S"
+  	  	  "start cmd @cmd /k C:\\medimage\\addons\\ehr-medtech-con\\odbc\\odbcibinstall.exe"
   	  ],
   	  "win64": [
   	  	  "C:\\medimage\\addons\\ehr-medtech-con\\odbc\\odbcibinstall.exe /S"
