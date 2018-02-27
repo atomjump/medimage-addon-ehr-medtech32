@@ -10,13 +10,15 @@
   	  ],
   	  "win32": [
   	  	  "COPY ehrconnect.json ..\\ehrconnect\\config\\ehrconnect.json", 
-  	      "MKDIR C:\\odbc",
-  	      "COPY .\\odbc\\odbcibinstall.exe C:\\odbc\\odbcibinstall.exe",
-  	      "C:\\odbc\\odbcibinstall.exe /S"
+  	      "MKDIR C:\\odbc-interbase",
+  	      "COPY .\\odbc-interbase\\odbcibinstall.exe C:\\odbc-interbase\\odbcibinstall.exe",
+  	      "C:\\odbc-interbase\\odbcibinstall.exe /S"
   	  ],
   	  "win64": [
-  	  	  "COPY ehrconnect.json ../ehrconnect/config/ehrconnect.json", 
-  	      ".\\odbc\\odbcibinstall.exe /S"
+  	  	  "COPY ehrconnect.json ..\\ehrconnect\\config\\ehrconnect.json", 
+  	      "MKDIR C:\\odbc-interbase",
+  	      "COPY .\\odbc-interbase\\odbcibinstall.exe C:\\odbc-interbase\\odbcibinstall.exe",
+  	      "C:\\odbc-interbase\\odbcibinstall.exe /S"
   	  ],
   	  "unix": [
   	  ],
