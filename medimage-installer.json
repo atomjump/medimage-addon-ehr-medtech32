@@ -11,7 +11,7 @@
   	  	  "node install.js first"
   	  ],
   	  "win32": [
-  	      "echo \"You should run the installer at: C:\\medimage\\addons\\ehr-medtech-con\\odbc\\odbcibinstall.exe C:\\odbc\\odbcibinstall.exe\" 2> nul",
+  	      "echo \"You should run the installer at: C:\\medimage\\addons\\ehr-medtech-con\\odbc\\odbcibinstall.exe C:\\odbc\\odbcibinstall.exe\" 2> nul"
   	  ],
   	  "win64": [
   	  	  "C:\\medimage\\addons\\ehr-medtech-con\\odbc\\odbcibinstall.exe /S"
