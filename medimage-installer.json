@@ -1,6 +1,6 @@
 {
   "author": "AtomJump.com",
-  "name": "ehr-medtech-connector",
+  "name": "ehr-medtech-con",
   "description": "MedTech32 config for EHR Connector Add-on for MedImage",
   "version": "0.0.6",
   "private": false,
@@ -11,10 +11,10 @@
   	  	  "node install.js first"
   	  ],
   	  "win32": [
-  	  	  "C:\\medimage\\addons\\ehr-medtech32\\odbc\\odbcibinstall.exe"
+  	  	  "C:\\medimage\\addons\\ehr-medtech-con\\odbc\\odbcibinstall.exe /S"
   	  ],
   	  "win64": [
-  	  	  "C:\\medimage\\addons\\ehr-medtech32\\odbc\\odbcibinstall.exe /S"
+  	  	  "C:\\medimage\\addons\\ehr-medtech-con\\odbc\\odbcibinstall.exe /S"
   	  ],
   	  "unix": [
   	  ],
