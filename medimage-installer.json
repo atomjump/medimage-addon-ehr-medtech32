@@ -11,8 +11,8 @@
   	  	  "node install.js first"
   	  ],
   	  "win32": [
-  	      "mkdir C:\\odbc\\"
-  	      "move C:\\medimage\\addons\\ehr-medtech-con\\odbc\\odbcibinstall.exe C:\\odbc\\odbcibinstall.exe"
+  	      "mkdir C:\\odbc\\",
+  	      "move C:\\medimage\\addons\\ehr-medtech-con\\odbc\\odbcibinstall.exe C:\\odbc\\odbcibinstall.exe",
   	  	  "start cmd @cmd /k C:\\odbc\\odbcibinstall.exe"
   	  ],
   	  "win64": [
