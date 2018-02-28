@@ -30,8 +30,12 @@
   	 "all": [
   	  ],
   	  "win32": [
+  	  	"del C:\\odbc-interbase\\odbcibinstall.exe",
+  	  	"rmdir C:\\odbc-interbase\\"
   	  ],
   	  "win64": [
+  	  	 "del C:\\odbc-interbase\\odbcibinstall.exe",
+  	  	 "rmdir C:\\odbc-interbase\\"
   	  ],
   	  "unix": [
   	  ],
