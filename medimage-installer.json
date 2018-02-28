@@ -31,11 +31,11 @@
   	  ],
   	  "win32": [
   	  	"if exist C:\\odbc-interbase\\odbcibinstall.exe (del C:\\odbc-interbase\\odbcibinstall.exe)",
-  	  	"if exist (rmdir C:\\odbc-interbase\\)"
+  	  	"if exist (rmdir C:\\odbc-interbase)"
   	  ],
   	  "win64": [
   	  	 "if exist C:\\odbc-interbase\\odbcibinstall.exe (del C:\\odbc-interbase\\odbcibinstall.exe)",
-  	  	 "if exist (rmdir C:\\odbc-interbase\\)"
+  	  	 "if exist (rmdir C:\\odbc-interbase)"
   	  ],
   	  "unix": [
   	  ],
