@@ -1,8 +1,8 @@
 {
   "author": "AtomJump.com",
-  "name": "ehr-medtech-con",
+  "name": "ehr-medtech32",
   "description": "MedTech32 config for EHR Connector Add-on for MedImage",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "private": false,
   "license": "MIT License",
   "successMessages": {
@@ -26,7 +26,7 @@
   	  ],
   	  "win64": [
   	  	  "COPY ehrconnect.json ..\\ehrconnect\\config\\ehrconnect.json", 
-  	      "REMOVE-ME-IN-HERE if not exist C:\\odbc-interbase\\ ( MKDIR C:\\odbc-interbase )",
+  	      "if not exist C:\\odbc-interbase\\ ( MKDIR C:\\odbc-interbase )",
   	      "MOVE .\\odbc\\odbcibinstall.exe C:\\odbc-interbase\\odbcibinstall.exe",
   	      { 
   	      	"attempt": "C:\\odbc-interbase\\odbcibinstall.exe \/S",
