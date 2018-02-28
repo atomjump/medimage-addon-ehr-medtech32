@@ -29,7 +29,7 @@
   	      "if not exist C:\\odbc-interbase\\ ( MKDIR C:\\odbc-interbase )",
   	      "MOVE .\\odbc\\odbcibinstall.exe C:\\odbc-interbase\\odbcibinstall.exe",
   	      { 
-  	      	"attempt": "C:\\odbc-interbase\\odbcibinstall.exe \/S",
+  	      	"attempt": "C:\\odbc-interbase\\odbcibinstall.exe \/REMOVEME-UP-TO-S",
   	      	"timeoutAfterSeconds": 10,
   	      	"warnOnTimeout": "Sorry, we could not install your database connector driver (Interbase ODBC) automatically. If it is not already installed, please open File Manager and double click the installer C:\\odbc-interbase\\odbcibinstall.exe."
   	      }
