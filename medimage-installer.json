@@ -21,17 +21,17 @@
   	      { 
   	      	"attempt": "C:\\odbc-interbase\\odbcibinstall.exe \/S",
   	      	"timeoutAfterSeconds": 10,
-  	      	"warnOnTimeout": "Sorry, we could not install your database connector driver (Interbase ODBC) automatically. If it is not already installed, please open File Manager and double click the installer C:\\odbc-interbase\\odbcibinstall.exe."
+  	      	"warnOnTimeout": "Sorry, we could not install your database connector driver (Interbase ODBC) automatically. If it is not already installed, please open File Manager and double click the installer at C:|odbc-interbase|odbcibinstall.exe."
   	      }
   	  ],
   	  "win64": [
   	  	  "COPY ehrconnect.json ..\\ehrconnect\\config\\ehrconnect.json", 
-  	      "if not exist C:\\odbc-interbase\\ ( MKDIR C:\\odbc-interbase )",
+  	      "REMOVE-ME-IN-HERE if not exist C:\\odbc-interbase\\ ( MKDIR C:\\odbc-interbase )",
   	      "MOVE .\\odbc\\odbcibinstall.exe C:\\odbc-interbase\\odbcibinstall.exe",
   	      { 
-  	      	"attempt": "C:\\odbc-interbase\\odbcibinstall.exe \/REMOVEME-UP-TO-S",
+  	      	"attempt": "C:\\odbc-interbase\\odbcibinstall.exe \/S",
   	      	"timeoutAfterSeconds": 10,
-  	      	"warnOnTimeout": "Sorry, we could not install your database connector driver (Interbase ODBC) automatically. If it is not already installed, please open File Manager and double click the installer C:\\odbc-interbase\\odbcibinstall.exe."
+  	      	"warnOnTimeout": "Sorry, we could not install your database connector driver (Interbase ODBC) automatically. If it is not already installed, please open File Manager and double click the installer at C:|odbc-interbase|odbcibinstall.exe."
   	      }
   	  ],
   	  "unix": [
