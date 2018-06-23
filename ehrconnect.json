@@ -1,5 +1,5 @@
 {
-	"photoPathMatch": "(.*)\\\\(.*)\\\\(.*).jpg",
+	"photoPathMatch": "(.*)\\\\(.*)\\\\(.*)\.(jpg|mp4|mp3|pdf)",
 	"photoVars": ["parentphotodir", "NHID", "photoname"],
 	"testConnectionSQL": "SELECT * FROM ATTACHMENTSMGR ORDER BY WHENADDED DESC ROWS 1;",
 	"testConnectionShowField": "PATHTOFILE",
