@@ -1,4 +1,7 @@
 # medimage-addon-ehr-medtech32
+
+__WARNING: this project has now moved to https://src.atomjump.com/atomjump/medimage-addon-ehr-medtech32.git__
+
 MedTech32 config for EHR Connector Add-on for MedImage
 
 To create your own EHR connector, use this package as a template. The only files
